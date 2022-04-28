@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import Navbar from '../components/navbar';
-import { withRouter } from 'react-router-dom';
 
 function Tracked_products() {
     return (
@@ -11,4 +10,4 @@ function Tracked_products() {
     )
 }
 
-export default withRouter(Tracked_products)
+export default Tracked_products
