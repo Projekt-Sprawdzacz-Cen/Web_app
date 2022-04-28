@@ -20,7 +20,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="btn btn-outline-secondary" onClick={() => {window.location.href="/"}} style={{padding: "18px", fontSize: "17px", borderRadius: "0px"}}>
+							<Link className="btn btn-outline-secondary" onClick={() => {window.location.href="/about_us"}} style={{padding: "18px", fontSize: "17px", borderRadius: "0px"}}>
 								About us
 							</Link>
 						</li>
@@ -30,7 +30,7 @@ function Navbar() {
 							</Link>
 						</li>
 						<li className="nav-item">
-							<Link className="btn btn-outline-secondary" to="/tracked_products" style={{padding: "18px", fontSize: "17px", borderRadius: "0px"}}>
+							<Link className="btn btn-outline-secondary" onClick={() => {window.location.href="/tracked_products"}} style={{padding: "18px", fontSize: "17px", borderRadius: "0px"}}>
 								Tracked products
 							</Link>
 						</li>
