@@ -7,6 +7,7 @@ import Home from './Pages/Home';
 import Tracked_products from './Pages/Tracked_products';
 import Panel_logowania from './Pages/panel_logowania';
 import Panel_rejestracji from './Pages/panel_rejestracji';
+import About_us from './Pages/About_us';
 
 function App() {
 	return (
@@ -15,8 +16,9 @@ function App() {
 				<switch>
 					<Route path='/' exact component={Home} />
 					<Route path='/tracked_products' exact component={withRouter(Tracked_products)} />
-					<Route path='/panel_logowania' exact component={Panel_logowania} />
-					<Route path='/panel_rejestracji' exact component={Panel_rejestracji} />
+					<Route path='/panel_logowania' component={Panel_logowania} />
+					<Route path='/panel_rejestracji' component={Panel_rejestracji} />
+					<Route path='/about_us' component={About_us} />
 				</switch>
 			</div>
 			<Footer />
