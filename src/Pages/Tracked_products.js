@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../components/navbar';
-import './Tracked-products-style.css';
+import Navbar from '../Components/Navbar';
+import './Tracked_products_style.css';
 
 function Tracked_products() {
     return (

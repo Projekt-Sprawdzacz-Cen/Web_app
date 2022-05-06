@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Switch, Route, withRouter } from 'react-router-dom';
 
-import Footer from './components/footer';
+import Footer from './Components/Footer';
 
 import Home from './Pages/Home';
 import Tracked_products from './Pages/Tracked_products';

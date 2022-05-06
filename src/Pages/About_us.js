@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../components/navbar';
-import './About-us-style.css';
+import Navbar from '../Components/Navbar';
+import './About_us_style.css';
 
 function About_us() {
     return (

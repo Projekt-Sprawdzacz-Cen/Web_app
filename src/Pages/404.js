@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import Navbar from '../components/navbar';
-import './404-style.css'
+import Navbar from '../Components/Navbar';
+import './404_style.css'
 
 function Page_not_found() {
     return (

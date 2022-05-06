@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Panel-logowania-style.css';
+import './Panel_logowania_style.css';
 
 const Panel_logowania = () => {
     return (
