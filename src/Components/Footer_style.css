@@ -1,0 +1,35 @@
+footer {
+    background-color: rgb(93, 93, 93);
+    position:absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+}
+
+a.twitter-color {
+    color: #55acee;
+}
+a.google-color {
+    color: #dd4b39;
+}
+a.instagram-color {
+    color: #ac2bac;
+}
+a.linkedin-color {
+    color: #0082ca;
+}
+a.github-color {
+    color: #333333;
+}
+
+div.footer-height {
+    height: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.bgcolor-copyright {
+    background-color: rgba(0, 0, 0, 0.2);
+}

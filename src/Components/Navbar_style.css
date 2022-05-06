@@ -1,0 +1,10 @@
+.nav-bgcolor {
+    background-color: rgb(230, 230, 230);
+}
+
+.custom-btn-nav {
+    padding: 18px;
+    font-size: 17px;
+    border-radius: 0px;
+    border: none;
+}
