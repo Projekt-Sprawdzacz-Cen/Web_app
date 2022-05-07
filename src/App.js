@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Switch, Route, withRouter } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Footer from './Components/Footer';
 
@@ -15,7 +15,7 @@ function App() {
 		<Router>
 			<Switch>
 				<Route path="/" exact component={Home} />
-				<Route path="/tracked_products" exact component={withRouter(Tracked_products)} />
+				<Route path="/tracked_products" exact component={Tracked_products} />
 				<Route path="/panel_logowania" component={Panel_logowania} />
 				<Route path="/panel_rejestracji" component={Panel_rejestracji} />
 				<Route path="/about_us" component={About_us} />

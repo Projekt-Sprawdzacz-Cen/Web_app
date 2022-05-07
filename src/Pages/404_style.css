@@ -1,3 +1,6 @@
-.notfound-custom-div {
+
+.notfound-page {
+    display: inline-block;
     height: 550px;
+    margin-bottom: 324px;
 }

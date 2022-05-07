@@ -4,7 +4,6 @@
     padding-bottom: 15px;
     padding-left:40px;
     padding-right: 40px;
-    margin-top: 125px;
 }
 
 .reg-h5 {
@@ -14,4 +13,17 @@
 .reg-custom-btn {
     margin-top: 15px;
     border: 1px solid lightgray;
+}
+
+.reg-custom-btn:hover {
+    background-color: lightgray;
+}
+
+.reg-mb-footer-434-mt-115 {
+    margin-bottom: 434px;
+    margin-top: 115px;
+}
+
+.reg-page {
+    display: inline-block;
 }

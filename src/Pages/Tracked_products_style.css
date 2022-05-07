@@ -1,3 +1,28 @@
 .tracked-custom-div {
     margin-top: 50px;
 }
+
+.tracked-mb-footer-324 {
+    margin-bottom: 324px;
+}
+
+.tracked-magnifier {
+    border: solid 1px lightGray;
+    background-color: white;
+    color: darkgray;
+    border-right: none;
+    border-radius: 0.25rem 0 0 0.25rem;
+}
+
+.tracked-magnifier:hover {
+    background-color: lightGray;
+    color: black;
+}
+
+.tracked-input {
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+.tracked-page {
+     display: inline-block;
+}

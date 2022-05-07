@@ -1,6 +1,14 @@
-.custom-height {
-    height: 520px;
+.about-custom-height {
+    height: 320px;
 }
-.mt-50 {
+.about-mt-50 {
     margin-top: 50px;
+}
+
+.about-mb-footer-324 {
+    margin-bottom: 324px;
+}
+
+.about-page {
+    display: inline-block;
 }

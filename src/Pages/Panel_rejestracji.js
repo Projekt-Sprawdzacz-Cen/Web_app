@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './Panel_rejestracji_style.css'
+import './Panel_rejestracji_style.css';
 
 function Panel_rejestracji() {
     return (
-        <div>
+        <div className='container-fluid reg-mb-footer-434-mt-115 p-0 reg-page'>
             <div className="container w-25 reg-custom-div">
 
                 <h5 className='reg-h5'>Zarejestruj swoje konto:</h5>
 
-                <form className="needs-validation" action="/action_page.php" novalidate>
+                <form className="needs-validation" action="/action_page.php" noValidate>
 
                     <input type="text" id="user_name" className="form-control me-2" placeholder="Nazwa użytkownika" name="user_name" required/>
                     <div className="invalid-feedback">
